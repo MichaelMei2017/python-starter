@@ -42,9 +42,9 @@ index_number=int(number)-1
 # now that we are getting an index, use it and mark x i that position
 
 map[index_number][index_letter]='❌'
-# check_index=map.index(map[index_number][index_letter])
+check_index=map.index(map[index_number][index_letter])
 
-# print(check_index)
+print(check_index)
 
 
 print(f"{row1}\n{row2}\n{row3}")
